@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registros</title>
+    <style>
+        h1{
+            text-align: center;
+            color: #00F;
+            border-bottom: dotted #0000FF;
+            width: 50%;
+            margin: auto;
+        }
+
+        table{
+            border: 1px solid #F00;
+            padding: 20px 50px;
+            margin: 50px auto auto auto;
+        }
+
+        body{
+            background-color: #FFC;
+        }
+        #btn_enviar{
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>REGISTRATE</h1>
+
+    <form action="pagina_insertar_usuario.php" method="post">
+        <table>
+            <tr>
+                <td>usuario</td>
+                <td><input type="text" name="usu" id="usu"></td>
+            </tr>
+            <tr>
+                <td>contraseña</td>
+                <td><input type="password" name="contra" id="contra"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="enviando" value="Registrar" id="btn_enviar"></td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>

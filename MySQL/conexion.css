@@ -1,0 +1,29 @@
+th, tr, td{
+    border: 2px solid black;
+}
+td{
+    width: 100px;
+    text-align: center;
+}
+th{
+    color: red;
+    background-color: #a6a6a6;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.concepto{
+    width: 200px;
+}
+
+table{
+    width: 80%;
+    /* alinea verticalmente la tabla */
+    margin: auto;
+}
+
+
+/* son pruebas  */
+.prueba{
+}

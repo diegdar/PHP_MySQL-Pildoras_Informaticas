@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registros</title>
+    <style>
+        h1{
+            text-align: center;
+            color: #00F;
+            border-bottom: dotted #0000FF;
+            width: 50%;
+            margin: auto;
+        }
+
+        table{
+            border: 1px solid #F00;
+            padding: 20px 50px;
+            margin: 50px auto auto auto;
+        }
+
+        body{
+            background-color: #FFC;
+        }
+    </style>
+</head>
+<body>
+    <h1>REGISTRO CONTABILIDAD</h1>
+    <form action="resultado_insertar_registros.php" name="form1" method="get">
+        <table>
+            <tr>
+                <td>FECHA APUNTE: </td>
+                <td>
+                    <label for="f_apunt"></label>
+                    <input type="text" name="f_apunt" id="f_apunt"></td>
+            </tr>
+            <tr>
+                <td>FECHA AMORTIZACION: </td>
+                <td>
+                    <label for="f_amort"></label>
+                    <input type="text" name="f_amort" id="f_amort"></td>
+            </tr>
+            <tr>
+                <td>DETALLE: </td>
+                <td>
+                    <label for="detalle"></label>
+                    <input type="text" name="detalle" id="detalle"></td>
+            </tr>
+            <tr>
+                <td>SUBCONCEPTO: </td>
+                <td>
+                    <label for="subconceto"></label>
+                    <input type="text" name="subconceto" id="subconceto"></td>
+            </tr>
+            <tr>
+                <td>CONCEPTO: </td>
+                <td>
+                    <label for="concepto"></label>
+                    <input type="text" name="concepto" id="concepto"></td>
+            </tr>
+            <tr>
+                <td>SUBIMPORTE: </td>
+                <td>
+                    <label for="subImporte"></label>
+                    <input type="text" name="subImporte" id="subImporte"></td>
+            </tr>
+            <tr>
+                <td>IMPORTE ING: </td>
+                <td>
+                    <label for="impor_ing"></label>
+                    <input type="text" name="impor_ing" id="impor_ing"></td>
+            </tr>
+            <tr>
+                <td>ID Registro: </td>
+                <td>
+                    <label for="id_registro"></label>
+                    <input type="text" name="id_registro" id="id_registro"></td>
+            </tr>
+            <tr>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
+                <td><input type="reset" name="borrar" id="borrar" value="Limpiar"></td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>

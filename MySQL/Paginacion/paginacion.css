@@ -1,0 +1,36 @@
+th,  td{
+    border: 2px solid black;
+}
+td{
+    text-align: center;
+}
+input{
+    text-align: center;
+    border: 0px;
+}
+th{
+    color: red;
+    background-color: #a6a6a6;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+table{
+    width: 80%;
+    /* alinea verticalmente la tabla */
+    margin: auto;
+}
+.btn_actualizar{
+    font-size: 15px;
+    background-color: #181818;
+    color: white;
+    padding: 7px;
+    font-weight: bold;
+}
+.paginacion{
+    margin: 20px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
